@@ -4,10 +4,22 @@
 <title>Byte 1 Tutorial</title>
 </head>
 <body>
-<h1>Data Pipeline Project Byte Example</h1>
-<h2>Consumption of Soft Drinks per Capita by State</h2>
-<iframe width="500" height="300" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col0+from+1eh7eDFJ3vp5BBN3yay_S-V3MscSrSxHoLRrusKKm+limit+1000&amp;viz=HEATMAP&amp;h=true&amp;lat=38.621389826110516&amp;lng=-95.61506942499994&amp;t=1&amp;z=4&amp;l=col0&amp;y=2&amp;tmplt=2&amp;hmd=true&amp;hmg=%2366ff0000%2C%2393ff00ff%2C%23c1ff00ff%2C%23eeff00ff%2C%23f4e300ff%2C%23f4e300ff%2C%23f9c600ff%2C%23ffaa00ff%2C%23ff7100ff%2C%23ff3900ff%2C%23ff0000ff&amp;hmo=0.48&amp;hmr=50&amp;hmw=0&amp;hml=GEOCODABLE"></iframe>
-<h2>Adult Obesity Rate by State</h2>
-<iframe width="500" height="300" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col0+from+12x2THcpgbqHc35t_XCbFRtUZSswI-dz3tI-zjcKT+limit+1000&amp;viz=HEATMAP&amp;h=true&amp;lat=40.718340057392794&amp;lng=-94.73616317499994&amp;t=1&amp;z=4&amp;l=col0&amp;y=2&amp;tmplt=2&amp;hmd=true&amp;hmg=%2366ff0000%2C%2393ff00ff%2C%23c1ff00ff%2C%23eeff00ff%2C%23f4e300ff%2C%23f4e300ff%2C%23f9c600ff%2C%23ffaa00ff%2C%23ff7100ff%2C%23ff3900ff%2C%23ff0000ff&amp;hmo=0.48&amp;hmr=50&amp;hmw=0&amp;hml=GEOCODABLE"></iframe>
+<h1>Comparing Soft Drink Consumption and Obesity Rate by State</h1>
+<p>
+	The purpose of this comparison is to see whether soft drink consumption and obesity are related. <br>
+	Red: states in the top 50% in terms of soft drink consumption/obesity rate
+	Green: states in the bottom 50% in terms of soft drink consumption/obesity rate
+	<br>
+	<br>
+	As you can see, the distribution of the red and green marks are quite consistent. Most of the red marks in both maps concentrate in the south, which means that those southern states have the highest soft drink consumption AND the hgihest obesity rates. 
+	<br>
+	Although further statistical analysis is needed, we can intuitively see by comparing these two maps that soft drink consumption and obesity are indeed closely related. 
+</p>
+<br><br>
+<h4>Consumption of Soft Drinks per Capita by State</h4>
+<iframe width="500" height="300" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col0+from+1eh7eDFJ3vp5BBN3yay_S-V3MscSrSxHoLRrusKKm&amp;viz=MAP&amp;h=false&amp;lat=38.621389826110516&amp;lng=-95.61506942499994&amp;t=1&amp;z=4&amp;l=col0&amp;y=2&amp;tmplt=2&amp;hml=GEOCODABLE"></iframe>
+<br>
+<h4>Adult Obesity Rate by State</h4>
+<iframe width="500" height="300" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col0+from+12x2THcpgbqHc35t_XCbFRtUZSswI-dz3tI-zjcKT&amp;viz=MAP&amp;h=false&amp;lat=40.718340057392794&amp;lng=-94.73616317499994&amp;t=1&amp;z=4&amp;l=col0&amp;y=2&amp;tmplt=2&amp;hml=GEOCODABLE"></iframe>
 </body>
 </html>
